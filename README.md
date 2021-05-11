@@ -1,2 +1,3 @@
 # emergence2heading
 Google Earth Engine code for a web app that can estimate the number of days from emergence to heading in wheat field based on growing degree days.
+The Heading GEE web application (https://shilosh.users.earthengine.app/view/emergence2heading) is based on pre-computed daily climatological MODIS LST (LSTclim) at resolution of 1Km for the entire world. The interface includes a map to select the field and to see the predicted heading map, a calendar for selecting the emergence date, and a drop-down list to select the cultivar. The user can select the emergence date and cultivar and to visualize a map of the predicted number of days to heading (E-H). The user can then click on any point on the map and get the date of the predicted heading at that point.
